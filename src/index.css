@@ -12,12 +12,14 @@ code {
     monospace;
 }
 .favButton{
-  background-color: rgba(136, 136, 136, 0.116);
-  padding: 10px;
-  border: none;
-  width: 100%;
+  background-color: rgba(228, 11, 11, 0.116);
+  padding: 6px;
+  border: 2px solid red;
+  width: 50%;
   cursor: pointer;
+  border-radius: 50px;
 }
+
 
 h1{
   text-align: center;
@@ -81,7 +83,7 @@ form{
 }
 
 .card:hover{
-  border: 0.5px solid rgb(206, 217, 142);
+  border: 2px solid rgb(206, 217, 142);
 }
 
 .card-grid{
@@ -99,7 +101,7 @@ table {
     border-spacing: 0;
     width: 100%;
     display: table;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
 
 }
 
